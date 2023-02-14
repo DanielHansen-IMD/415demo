@@ -135,6 +135,35 @@ pre {
   white-space: pre-wrap;
 }
 
+.button, .button-secondary {
+  text-decoration: none;
+  border: 3px solid #fb763d;
+  color: #fb763d;
+  display: inline-block;
+  margin: 1em 0;
+  padding: 1em 1.6em;
+  font-size: 0.85rem;
+  border-radius: 5px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  transition: all 150ms;
+}
+.button:hover, .button-secondary:hover {
+  background-color: #fb763d;
+  color: #ffffff;
+}
+
+.button-secondary {
+  background-color: #fb763d;
+  color: #ffffff;
+}
+.button-secondary:hover {
+  background-color: #ffffff;
+  color: #fb763d;
+}
+
 .header {
   display: flex;
   background-color: #a2abb0;

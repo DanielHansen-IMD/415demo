@@ -1,9 +1,7 @@
 .nav {
      margin-right: auto;
      .menu {
-         margin: 0;
-         padding: 0;
-         list-style: none;
+          @include listreset;
          display: flex;
           &-item {
                margin-right: 0.5em;
