@@ -10,6 +10,7 @@
      background-color: $color__white;
      text-transform: uppercase;
      line-height: 1;
+     font-weight: bold;
      font-family: $font__heading;
      transition: all 150ms;
      &:hover {
@@ -24,6 +25,14 @@
      &:hover {
           background-color: $color__white;
           color: $color__orange;
-
+     }
+}
+.button-tertiary {
+     @extend .button;
+     border-color: $color__grey;
+     color: $color__grey;
+     &:hover {
+          background-color: $color__grey;
+          color: $color__white;
      }
 }

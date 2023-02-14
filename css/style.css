@@ -135,7 +135,14 @@ pre {
   white-space: pre-wrap;
 }
 
-.button, .button-secondary {
+a, a:visited {
+  color: #08388c;
+}
+a:hover, a:visited:hover {
+  color: #fb763d;
+}
+
+.button, .button-tertiary, .button-secondary {
   text-decoration: none;
   border: 3px solid #fb763d;
   color: #fb763d;
@@ -147,10 +154,11 @@ pre {
   background-color: #ffffff;
   text-transform: uppercase;
   line-height: 1;
+  font-weight: bold;
   font-family: "Montserrat", sans-serif;
   transition: all 150ms;
 }
-.button:hover, .button-secondary:hover {
+.button:hover, .button-tertiary:hover, .button-secondary:hover {
   background-color: #fb763d;
   color: #ffffff;
 }
@@ -164,13 +172,35 @@ pre {
   color: #fb763d;
 }
 
+.button-tertiary {
+  border-color: #a2abb0;
+  color: #a2abb0;
+}
+.button-tertiary:hover {
+  background-color: #a2abb0;
+  color: #ffffff;
+}
+
+.main {
+  padding: 4vw 10vw;
+}
+
 .header {
   display: flex;
-  background-color: #a2abb0;
+  background-color: #08388c;
+  align-items: center;
+  padding: 0 10vw;
+}
+
+.site-title {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .nav {
-  margin-right: auto;
+  margin-left: 5vw;
 }
 .nav .menu {
   margin: 0;
@@ -182,14 +212,14 @@ pre {
   margin-right: 0.5em;
 }
 .nav .menu-item-link {
-  color: #08388c;
+  color: #ffffff;
   text-decoration: none;
-  padding: 0.6em 1em;
+  padding: 1em 1.4em;
   display: block;
   font-family: "Montserrat", sans-serif;
 }
 .nav .menu-item-link:hover {
-  background-color: #b0b7bc;
+  background-color: #0942a4;
 }
 
 /*# sourceMappingURL=style.css.map */
