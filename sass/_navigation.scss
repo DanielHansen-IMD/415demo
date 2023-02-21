@@ -1,21 +1,22 @@
 .nav {
-     margin-left: 5vw;
-     .menu {
-          @include listreset;
-         display: flex;
-          &-item {
-               margin-right: 0.5em;
-               &-link {
-                    color: $color__white;
-                    text-decoration: none;
-                    padding: 1em 1.4em;
-                    display: block;
-                    font-family: $font__heading;
-                    &:hover {
-                         background-color: lighten($color__blue, 5%);
-                    }
-               }
-          }
-     }
-
+  margin-left: 5vw;
+  .menu {
+    @include listreset;
+    display: flex;
+    &-item {
+      margin-right: 0.5em;
+      &-link {
+        color: $color__white;
+        text-decoration: none;
+        padding: 1em 1.4em;
+        display: block;
+        font-family: $font__heading;
+        &:hover,
+        &:visited:hover {
+          color: $color__white;
+          background-color: lighten($color__blue, 5%);
+        }
+      }
+    }
+  }
 }

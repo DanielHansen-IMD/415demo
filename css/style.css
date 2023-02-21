@@ -198,7 +198,7 @@ a.button-tertiary:hover {
   display: flex;
   background-color: #08388c;
   align-items: center;
-  padding: 0 10vw;
+  padding: 0 15vw;
 }
 
 .site-title {
@@ -227,7 +227,8 @@ a.button-tertiary:hover {
   display: block;
   font-family: "Montserrat", sans-serif;
 }
-.nav .menu-item-link:hover {
+.nav .menu-item-link:hover, .nav .menu-item-link:visited:hover {
+  color: #ffffff;
   background-color: #0942a4;
 }
 
