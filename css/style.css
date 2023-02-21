@@ -142,7 +142,7 @@ a:hover, a:visited:hover {
   color: #fb763d;
 }
 
-.button, .button-tertiary, .button-secondary {
+a.button, a.button-tertiary, a.button-secondary {
   text-decoration: none;
   border: 3px solid #fb763d;
   color: #fb763d;
@@ -158,25 +158,34 @@ a:hover, a:visited:hover {
   font-family: "Montserrat", sans-serif;
   transition: all 150ms;
 }
-.button:hover, .button-tertiary:hover, .button-secondary:hover {
+a.button:visited, a.button-tertiary:visited, a.button-secondary:visited {
+  color: #fb763d;
+}
+a.button:hover, a.button-tertiary:hover, a.button-secondary:hover {
   background-color: #fb763d;
   color: #ffffff;
 }
 
-.button-secondary {
+a.button-secondary {
   background-color: #fb763d;
   color: #ffffff;
 }
-.button-secondary:hover {
+a.button-secondary:visited {
+  color: #ffffff;
+}
+a.button-secondary:hover {
   background-color: #ffffff;
   color: #fb763d;
 }
 
-.button-tertiary {
+a.button-tertiary {
   border-color: #a2abb0;
   color: #a2abb0;
 }
-.button-tertiary:hover {
+a.button-tertiary:visited {
+  color: #a2abb0;
+}
+a.button-tertiary:hover {
   background-color: #a2abb0;
   color: #ffffff;
 }
